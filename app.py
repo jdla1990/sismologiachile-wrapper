@@ -10,7 +10,7 @@ bottle.debug(False)
 def ultimos():
     response.content_type = 'application/json; charset=utf-8'
     try:
-        return dumps({'status' : 1, 'data' : SismoStore.get_lasted(False)})
+        return dumps({'status' : 1, 'data' : SismoStore.get_lasted()})
     except Exception as ex:
         return dumps({'status' : 0})
 
