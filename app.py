@@ -7,7 +7,7 @@ from bottle import route, run, response, request, post
 bottle.debug(True)
 
 @route('/sismos/ultimos')
-def index():
+def ultimos():
     response.content_type = 'application/json; charset=utf-8'
     try:
         return dumps({'status' : 1, 'data' : SismoStore.get_lasted(False)})
@@ -28,5 +28,10 @@ def detail_sismo():
 def clear_cache():
     SismoStore.clear_details_cached()
     return dumps({'status':1})
+
+@route('/')
+def index():
+    return dumps({'status':'OK'})
+
 
 run(host='localhost', port=argv[1], reloader=True)
