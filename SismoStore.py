@@ -5,6 +5,7 @@ import os, glob
 from datetime import datetime
 from bs4 import BeautifulSoup
 
+
 SISMOLOGIA_URL = 'http://www.sismologia.cl'
 SISMOLOGIA_URL_ULTIMOS = ''.join((SISMOLOGIA_URL, '/links/tabla.html'))
 PATH_DETAILS = 'details'
@@ -33,7 +34,7 @@ def make_request(url_site, check_cache=False):
                 return content
         except Exception as ex:
             print "Error en generacion de cache"
-            print ex.message
+            print ex
             return None
     else:
         try:
