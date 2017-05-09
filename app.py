@@ -4,7 +4,7 @@ from sys import argv
 from json import dumps, loads
 from bottle import route, run, response, request, post
 
-bottle.debug(True)
+bottle.debug(False)
 
 @route('/sismos/ultimos')
 def ultimos():
@@ -34,4 +34,4 @@ def index():
     return dumps({'status':'OK'})
 
 
-run(host='localhost', port=argv[1], reloader=True)
+bottle.run(host='0.0.0.0', port=argv[1])
