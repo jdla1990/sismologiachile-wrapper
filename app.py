@@ -26,11 +26,13 @@ def detail_sismo():
 
 @route('/cache/clear')
 def clear_cache():
+    response.content_type = 'application/json; charset=utf-8'
     SismoStore.clear_details_cached()
     return dumps({'status':1})
 
 @route('/')
 def index():
+    response.content_type = 'application/json; charset=utf-8'
     return dumps({'status':'OK'})
 
 
