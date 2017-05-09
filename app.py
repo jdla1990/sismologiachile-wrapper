@@ -4,7 +4,7 @@ from sys import argv
 from json import dumps, loads
 from bottle import route, run, response, request, post
 
-bottle.debug(False)
+bottle.debug(True)
 
 @route('/sismos/ultimos')
 def ultimos():
