@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="refresh" content="150" />
+    <meta name="description" content="Servicio SismolÃ³gico, Universidad de Chile" />
+    <meta name="author" content="SSUCH" />
+    <!--[if IE 8]> <link rel="stylesheet" href="/css/style_ie8.css" /><![endif]-->
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Ultimos Sismos</title>
+    <script type="text/javascript">
+        function popitup(url) {
+        var newwindow=window.open(url,"Epicentro","height=480,width=320,resizable=0,scrollbars=0,location=0,toolbar=0");
+        if (window.focus) {newwindow.focus()}
+        return false;
+        }
+    </script>
+  </head>
+  <body>
+
+<table>
+<tbody>
+<tr class="impar"><th>Fecha Local</th><th>Lugar</th><th>Magnitud</th></tr>
+<tr class="par"><td><a href="/events/sensibles/2017/05/10-1315-55L.S201705.html" target="centro">2017/05/10 10:15:54</a></td><td>81 km al E de Socaire</td><td>4.3 Mw</td></tr>
+<tr class="impar"><td><a href="/events/sensibles/2017/05/10-1206-13L.S201705.html" target="centro">2017/05/10 09:06:12</a></td><td>25 km al NO de El Tabo</td><td>3.4 Ml</td></tr>
+<tr class="par"><td><a href="/events/sensibles/2017/05/10-1132-35L.S201705.html" target="centro">2017/05/10 08:32:40</a></td><td>93 km al O de Los Vilos</td><td>3.2 Ml</td></tr>
+<tr class="impar"><td><a href="/events/sensibles/2017/05/10-1127-15L.S201705.html" target="centro">2017/05/10 08:27:13</a></td><td>25 km al S de CamiÃ±a</td><td>3.1 Ml</td></tr>
+<tr class="par"><td><a href="/events/sensibles/2017/05/10-1038-42L.S201705.html" target="centro">2017/05/10 07:38:41</a></td><td>56 km al O de ValparaÃ­so</td><td>3.7 Ml</td></tr>
+<tr class="impar"><td><a href="/events/sensibles/2017/05/10-0851-11L.S201705.html" target="centro">2017/05/10 05:51:10</a></td><td>26 km al SO de Canela Baja</td><td>4.0 Ml</td></tr>
+<tr class="par"><td><a href="/events/sensibles/2017/05/10-0845-13L.S201705.html" target="centro">2017/05/10 05:45:13</a></td><td>38 km al N de ValparaÃ­so</td><td>3.3 Ml</td></tr>
+<tr class="impar s_sensible"><td><a href="/events/sensibles/2017/05/10-0817-42L.S201705.html" target="centro">2017/05/10 05:17:44</a></td><td>70 km al E de Tierra Amarilla</td><td>4.2 Ml</td></tr>
+<tr class="par"><td><a href="/events/sensibles/2017/05/10-0715-06L.S201705.html" target="centro">2017/05/10 04:15:08</a></td><td>126 km al NO de Pichilemu</td><td>3.0 Ml</td></tr>
+<tr class="impar"><td><a href="/events/sensibles/2017/05/10-0622-15L.S201705.html" target="centro">2017/05/10 03:22:32</a></td><td>66 km al SE de Socaire</td><td>3.1 Ml</td></tr>
+<tr class="par"><td><a href="/events/sensibles/2017/05/10-0459-41L.S201705.html" target="centro">2017/05/10 01:59:40</a></td><td>22 km al S de Mina Collahuasi</td><td>3.3 Ml</td></tr>
+<tr class="impar"><td><a href="/events/sensibles/2017/05/10-0038-07L.S201705.html" target="centro">2017/05/09 21:38:08</a></td><td>31 km al SO de Pichilemu</td><td>3.2 Ml</td></tr>
+<tr class="par"><td><a href="/events/sensibles/2017/05/10-0012-58L.S201705.html" target="centro">2017/05/09 21:12:58</a></td><td>16 km al S de Punitaqui</td><td>3.9 Ml</td></tr>
+<tr class="impar"><td><a href="/events/sensibles/2017/05/09-2229-43L.S201705.html" target="centro">2017/05/09 19:29:42</a></td><td>38 km al NO de Navidad</td><td>3.0 Ml</td></tr>
+<tr class="par"><td><a href="/events/sensibles/2017/05/09-2227-56L.S201705.html" target="centro">2017/05/09 19:27:57</a></td><td>90 km al NO de Quillagua</td><td>3.0 Ml</td></tr>
+</tbody>
+</table>
+
+  </body>
+</html>
