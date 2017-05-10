@@ -47,4 +47,4 @@ def index():
     return dumps({'status':'OK'})
 
 
-bottle.run(host='localhost', port=argv[1])
+bottle.run(host='0.0.0.0', port=argv[1])
