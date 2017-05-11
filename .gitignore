@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 details/*.cache
 **.pyc
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -91,4 +90,4 @@ ENV/
 
 # Rope project settings
 .ropeproject
->>>>>>> 45a327628954b818e92371dc524a801518df7e5b
+
