@@ -1,5 +1,6 @@
 import bottle
 import SismoStore
+import urllib
 from sys import argv
 from json import dumps, loads
 from bottle import route, run, response, request, post
@@ -27,9 +28,11 @@ def ultimos():
 @post('/sismo/detail')
 def detail_sismo():
     response.content_type = 'application/json; charset=utf-8'
-    
-    path = request.json
-    detail = SismoStore.detail_sismo(path['path'])
+    body = request.body.read()
+    body = body.replace("+","").replace("payload=","")
+    parsedBody = urllib.unquote(body).decode('utf8')
+    jsonObj = loads(parsedBody)
+    detail = SismoStore.detail_sismo(jsonObj['path'])
     if detail:
         return dumps({'status': 1, 'data': detail })
     else:
